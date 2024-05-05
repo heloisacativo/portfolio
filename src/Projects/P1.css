@@ -1,0 +1,282 @@
+@media screen and (max-width: 767px){
+     .descriptionProject1 h1 {
+          display: flex;
+          justify-content: start;
+          width: 100%;
+          margin-left: 7.5rem;
+          font-family: "Reddit Sans", sans-serif;
+          font-size: 25px;
+          margin-top: 6rem;
+         }
+    
+         .descriptionProject1 h3 {
+          display: flex;
+          justify-content: start;
+          width: 100%;
+          margin-left: 7.5rem;
+          font-family: 'Raleway', sans-serif;
+          font-size: 25px;
+          margin-top: -1rem;
+          font-weight: 200;
+          
+         }
+    
+         .imgProject1 {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+         } 
+    
+         .imgProject1 img{
+          width: 50%;
+         }
+    
+         .theProduct h2,
+         .research h2,
+         .personas h2,
+         .userJourneyMap h2,
+         .designStart h2,
+         .wireframe h2,
+         .mockups h2{
+          display: flex;
+          justify-content: start;
+          width: 100%;
+          margin-left: 7.5rem;
+          font-family: "Reddit Sans", sans-serif;
+          font-size: 15px;
+         }
+    
+         .theProduct p,
+         .research p,
+         .personas p,
+         .userJourneyMap p,
+         .designStart p,
+         .wireframe p,
+         .mockups p,
+         .uxResearch p{
+          display: flex;
+          justify-content: start;
+          width: 90%;
+          margin-left: 7.5rem;
+          font-family: "Reddit Sans", sans-serif;
+          font-size: 10px;
+          font-weight: 300;
+         }
+    
+         
+         .personas .imgPeronas,
+         .userJourneyMap .imgUserMap,
+         .designStart .imgStoryboard,
+         .wireframe .imgWireframe,
+         .prototype1 .imgPrototype,
+         .uxResearch .imgResearch,
+         .designRefining .imgRefining,
+         .mockups .imgMockups{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin-left: 1rem;
+         }
+    
+         .personas .imgPeronas img,
+         .userJourneyMap .imgUserMap img,
+         .designStart .imgStoryboard img,
+         .wireframe .imgWireframe img,
+         .prototype1 .imgPrototype img,
+         .uxResearch .imgResearch img,
+         .designRefining .imgRefining img,
+         .mockups .imgMockups img{
+          width: 50%;
+          margin-bottom: 4rem;
+         }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    
+   .descriptionProject1 h1 {
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: "Reddit Sans", sans-serif;
+      font-size: 25px;
+      margin-top: 6rem;
+     }
+
+     .descriptionProject1 h3 {
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      margin-top: -1rem;
+      font-weight: 200;
+      
+     }
+
+     .imgProject1 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+     } 
+
+     .imgProject1 img{
+      width: 50%;
+     }
+
+     .theProduct h2,
+     .research h2,
+     .personas h2,
+     .userJourneyMap h2,
+     .designStart h2,
+     .wireframe h2,
+     .mockups h2{
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: "Reddit Sans", sans-serif;
+      font-size: 25px;
+     }
+
+     .theProduct p,
+     .research p,
+     .personas p,
+     .userJourneyMap p,
+     .designStart p,
+     .wireframe p,
+     .mockups p,
+     .uxResearch p{
+      display: flex;
+      justify-content: start;
+      width: 90%;
+      margin-left: 7.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+     }
+
+     
+     .personas .imgPeronas,
+     .userJourneyMap .imgUserMap,
+     .designStart .imgStoryboard,
+     .wireframe .imgWireframe,
+     .prototype1 .imgPrototype,
+     .uxResearch .imgResearch,
+     .designRefining .imgRefining,
+     .mockups .imgMockups{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+     }
+
+     .personas .imgPeronas img,
+     .userJourneyMap .imgUserMap img,
+     .designStart .imgStoryboard img,
+     .wireframe .imgWireframe img,
+     .prototype1 .imgPrototype img,
+     .uxResearch .imgResearch img,
+     .designRefining .imgRefining img,
+     .mockups .imgMockups img{
+      width: 50%;
+      margin-bottom: 4rem;
+     }
+
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1919px) {
+     
+     .descriptionProject1 h1 {
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: "Reddit Sans", sans-serif;
+      font-size: 25px;
+      margin-top: 6rem;
+     }
+
+     .descriptionProject1 h3 {
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      margin-top: -1rem;
+      font-weight: 200;
+      
+     }
+
+     .imgProject1 {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+     } 
+
+     .imgProject1 img{
+      width: 50%;
+     }
+
+     .theProduct h2,
+     .research h2,
+     .personas h2,
+     .userJourneyMap h2,
+     .designStart h2,
+     .wireframe h2,
+     .mockups h2{
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-left: 7.5rem;
+      font-family: "Reddit Sans", sans-serif;
+      font-size: 25px;
+     }
+
+     .theProduct p,
+     .research p,
+     .personas p,
+     .userJourneyMap p,
+     .designStart p,
+     .wireframe p,
+     .mockups p,
+     .uxResearch p{
+      display: flex;
+      justify-content: start;
+      width: 90%;
+      margin-left: 7.5rem;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+     }
+
+     
+     .personas .imgPeronas,
+     .userJourneyMap .imgUserMap,
+     .designStart .imgStoryboard,
+     .wireframe .imgWireframe,
+     .prototype1 .imgPrototype,
+     .uxResearch .imgResearch,
+     .designRefining .imgRefining,
+     .mockups .imgMockups{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      
+     }
+
+     .personas .imgPeronas img,
+     .userJourneyMap .imgUserMap img,
+     .designStart .imgStoryboard img,
+     .wireframe .imgWireframe img,
+     .prototype1 .imgPrototype img,
+     .uxResearch .imgResearch img,
+     .designRefining .imgRefining img,
+     .mockups .imgMockups img{
+      width: 50%;
+      margin-bottom: 4rem;
+     }
+}

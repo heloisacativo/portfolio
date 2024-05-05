@@ -1,0 +1,39 @@
+@media screen and (max-width: 767px){
+    footer{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        color: #d65886;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+    footer{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        color: #d65886;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    footer{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        color: #d65886;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+
+@media screen and (min-width: 1439px) and (max-width: 1919px){
+    footer{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        color: #d65886;
+    }
+}

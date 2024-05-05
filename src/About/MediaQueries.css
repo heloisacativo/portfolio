@@ -1,0 +1,231 @@
+@media screen and (max-width: 767px){
+    
+    .aboutContainer{
+        background-color:   rgb(234, 234, 229);
+        width: 80%;
+        margin-top: 0rem;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .aboutContainer img {
+        margin-left: 8rem;
+        margin-top: 4rem;
+        width: 5rem;
+        object-fit: cover;
+        clip-path: ellipse(50% 30% at  50% 43%);
+    }
+    
+    
+    .aboutContainer h2 {
+        
+        margin-left: 1.5rem;
+        font-size: 10px;
+        color: #353535;
+        position: absolute;
+        margin-top: -1rem;
+    }
+    
+    .contactContainer {
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        margin-top: -1rem;
+        justify-content: center;
+        
+        
+    }
+    
+    
+    .contactContainer img {
+        width: 10%;
+        margin-left: 1rem;
+        clip-path: ellipse(90% 90% at  50% 10%);
+        
+        
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+    
+    .aboutContainer{
+        background-color:   rgb(234, 234, 229);
+        width: 80%;
+        margin-top: 5rem;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .aboutContainer img {
+        margin-left: 5rem;
+        margin-top: 4rem;
+        width: 10rem;
+        object-fit: cover;
+        clip-path: ellipse(50% 30% at  50% 43%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    .aboutContainer h2 {
+       
+        margin-left: 18rem;
+        font-size: 23px;
+        color: #353535;
+        position: absolute;
+        margin-top: -13rem;
+    }
+    
+    .contactContainer {
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        margin-top: -7rem;
+        margin-left: 10rem;
+        justify-content: center;
+        
+        
+    }
+    
+    
+    .contactContainer img {
+        width: 10%;
+        margin-left: 1rem;
+        clip-path: ellipse(90% 90% at  50% 10%);
+        
+        
+        
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    
+    .aboutContainer{
+        background-color:   rgb(234, 234, 229);
+        width: 80%;
+        margin-top: 5rem;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .aboutContainer img {
+        margin-left: 5rem;
+        margin-top: 4rem;
+        width: 10rem;
+        object-fit: cover;
+        clip-path: ellipse(50% 30% at  50% 43%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    .aboutContainer h2 {
+       
+        margin-left: 18rem;
+        font-size: 23px;
+        color: #353535;
+        position: absolute;
+        margin-top: -13rem;
+    }
+    
+    .contactContainer {
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        margin-top: -7rem;
+        margin-left: 10rem;
+        justify-content: center;
+        
+        
+    }
+    
+    
+    .contactContainer img {
+        width: 10%;
+        margin-left: 1rem;
+        clip-path: ellipse(90% 90% at  50% 10%);
+        
+        
+        
+    }
+ 
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1919px)  {
+    
+    .aboutContainer{
+        background-color:   rgb(234, 234, 229);
+        width: 50%;
+        margin-top: 5rem;
+        height: 60vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1rem;
+        font-family: 'Raleway', sans-serif;
+    }
+    .aboutContainer img {
+        margin-left: 5rem;
+        margin-top: 4rem;
+        width: 10rem;
+        object-fit: cover;
+        clip-path: ellipse(50% 30% at  50% 43%);
+    }
+    
+    
+    
+    
+    
+    
+    
+    .aboutContainer h2 {
+       
+        margin-left: 18rem;
+        font-size: 23px;
+        color: #353535;
+        position: absolute;
+        margin-top: -13rem;
+    }
+    
+    .contactContainer {
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        margin-top: -7rem;
+        margin-left: 10rem;
+        justify-content: center;
+        
+        
+    }
+    
+    
+    .contactContainer img {
+        width: 10%;
+        margin-left: 1rem;
+        clip-path: ellipse(90% 90% at  50% 10%);
+        
+        
+        
+    }
+ 
+}
