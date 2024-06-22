@@ -1,5 +1,5 @@
 import React from "react";
-import "../Projects/P2.css";
+import "../Projects/Project.css";
 import ImgProject2 from "../assets/projects/P2/project2-lineny.png";
 import ImgPersona from "../assets/projects/P2/persona1-lineny.png";
 import ImgWireframe from "../assets/projects/P2/wireframe-lineny.png";
@@ -16,10 +16,10 @@ const P2 = () => {
             <ProjectsNavigation/>
         
             
-                <div className="descriptionProject2">
+                <div className="descriptionProject">
                     <h1>LineNY</h1>
-                    <h3>Estudo de caso</h3>
-                    <div className="imgProject2">
+                    <p>Estudo de caso</p>
+                    <div className="imgProject">
                     <img src={ImgProject2} alt="Imagem do Projeto LineNy"/>
                     </div>
                </div>
@@ -32,11 +32,11 @@ const P2 = () => {
                 </div>
                 <div className="research">
                     <h2>Pesquisa</h2>
-                    <p>Realizei pesquisa online, utilizei de auditoria compotetiva, personas, mapa da jornada do usuário e declaração de problema onde pude obter insights valiosos pro VetWIse.</p>
+                    <p>Realizei pesquisa online, utilizei de auditoria compotetiva, personas e declaração de problema onde pude obter insights valiosos pro LineNY.</p>
                 </div>
                 <div className="personas">
                     <h2>Personas</h2>
-                    <div className="imgPeronas">
+                    <div className="imgPersonas">
                     <img src={ImgPersona} alt="Imagem Persona"/>
                     </div>
                 </div>

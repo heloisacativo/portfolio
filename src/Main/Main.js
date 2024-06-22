@@ -14,8 +14,8 @@ const Main = () => {
     <>
         <ProjectsNavigation/>
         <div className="projectsList">
-                <Link to="/projects/project-1" className="cards">
-                    <div className="cards card1">
+                <Link to="/projects/vetWise" className="cards">
+                    <div className="cards">
                         <img src={ImgProjeto1} alt="Projeto 1"/>
                         <div className="overlayCard">
                         <div className="descriptionCard">
@@ -26,13 +26,13 @@ const Main = () => {
                     </div>
                 </Link>
                 
-                <Link to="/projects/project-2" className="cards">              
-                    <div className="cards card2">
+                <Link to="/projects/lineNy" className="cards">              
+                    <div className="cards">
                         <img src={ImgProjeto2} alt="Projeto 2"/>
                         <div className="overlayCard">
                         <div className="descriptionCard">
                         <h2>LineNY</h2>
-                        <p>Ux, Sharpen Challeng</p>
+                        <p>Ux, Sharpen Challenge</p>
                         </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ const Main = () => {
                 
 
            
-                <Link to="/projects/project-3" className="cards">
-                    <div className="cards card3">
+                <Link to="/projects/kiddo" className="cards">
+                    <div className="cards">
                         <img src={ImgProjeto3} alt="Projeto 3"/>
                         <div className="overlayCard">
                         <div className="descriptionCard">
@@ -52,8 +52,8 @@ const Main = () => {
                     </div>
                 </Link>
 
-                <Link to="/projects/project-4" className="cards">
-                    <div className="cards card3">
+                <Link to="/projects/forksTravel" className="cards">
+                    <div className="cards">
                         <img src={ImgProject4} alt="Projeto 4"/>
                         <div className="overlayCard">
                         <div className="descriptionCard">

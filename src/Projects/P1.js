@@ -1,5 +1,5 @@
 import React from "react";
-import "../Projects/P1.css";
+import "../Projects/Project.css";
 import ImgProject1 from "../assets/imgs/project-1.png";
 import ImgPersona1 from "../assets/imgs/persona1.png";
 import ImgPersona2 from "../assets/imgs/persona2.png";
@@ -12,6 +12,7 @@ import ImgBeforaAfterMockup from "../assets/imgs/before-after-mockup.png";
 import ImgUxResearch from "../assets/imgs/uxresearch.png";
 import ImgInsightVetWise from "../assets/imgs/insights-vetwise.png";
 import ImgMockup1  from "../assets/imgs/mockup1.png";
+import GifVetwise from "../assets/projects/P1/captureGifVetWise.gif";
 import ProjectsNavigation from "../ProjectsNavigation/ProjectsNavigation";
 import Footer from "../Footer/Footer";
 
@@ -20,17 +21,17 @@ const P1 = () => {
     <>
     <ProjectsNavigation/>
 
-        <div className="descriptionProject1">
+        <div className="descriptionProject">
             <h1>VetWise</h1>
-            <h3>Estudo de caso</h3>
+            <p>Estudo de caso</p>
        </div>
-       <div className="imgProject1">
+       <div className="imgProject">
             <img src={ImgProject1} alt="Imagem do Projeto 1"/>
        </div>
      
         <div className="theProduct">
             <h2>O Produto</h2>
-            <p>Aplicativo para encontrar clínica veterinária, realizar agendamentos e acompanhar tratamento.</p>
+            <p>Aplicativo para encontrar clínica veterinária e realizar agendamentos</p>
             <h2>Meta</h2>
             <p>Criar um aplicativo intuitivo e acessível para donos de pets  e veterinários.</p>
         </div>
@@ -40,13 +41,13 @@ const P1 = () => {
         </div>
         <div className="personas">
             <h2>Personas</h2>
-            <div className="imgPeronas">
+            <div className="imgPersonas">
             <img src={ImgPersona1} alt="Imagem Persona 1"/>
             <img src={ImgPersona2} alt="Imagem Persona 2"/>
             </div>
         </div>
         <div className="userJourneyMap">
-         <h2>Jormada do usuário</h2>
+         <h2>Jornada do usuário</h2>
          <div className="imgUserMap">
          <img src={ImgUserMap} alt="Imagem Mapa do Usuário"/>
          </div>
@@ -65,13 +66,14 @@ const P1 = () => {
        <img src={ImgWireframe1} alt="Wireframe do VetWise"/>
        </div>
        </div>
-      <div className="prototype1">
-      <div className="imgPrototype">
+      <div className="prototype">
+      <div className="imgPrototype1">
       <img src={ImgPrototype1} alt="Prototype"/>
+      <img src={GifVetwise} alt="Gif VetWise"/>
       </div>
       </div>
       <div className="uxResearch">
-        <p>Objetivo da pesquisa: Descobrir se o meu App realmente é ágil e intuitivo para os usuários e se os usuários finalizam o atendimento e ainda continuam usando o App.</p>
+        <p>Objetivo da pesquisa: Descobrir se o meu App realmente é intuitivo para os usuários e se os usuários conseguem chegar ao destino final com facilidade.</p>
         <div className="imgResearch">
         <img src={ImgUxResearch} alt="Imagem da Ux Research"/>
         <img src={ImgInsightVetWise} alt="Imagem dos Insights obtidos"/>

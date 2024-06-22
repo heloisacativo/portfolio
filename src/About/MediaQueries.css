@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px){
     
     .aboutContainer{
-        background-color:   rgb(234, 234, 229);
+        background-color: #1d1824;
         width: 80%;
         margin-top: 0rem;
         height: 60vh;
@@ -10,7 +10,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 1rem;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     .aboutContainer img {
         margin-left: 8rem;
@@ -25,7 +25,7 @@
         
         margin-left: 1.5rem;
         font-size: 10px;
-        color: #353535;
+        color: #282A36;
         position: absolute;
         margin-top: -1rem;
     }
@@ -63,7 +63,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 1rem;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     .aboutContainer img {
         margin-left: 5rem;
@@ -122,7 +122,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 1rem;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     .aboutContainer img {
         margin-left: 5rem;
@@ -173,7 +173,7 @@
 @media screen and (min-width: 1439px) and (max-width: 1919px)  {
     
     .aboutContainer{
-        background-color:   rgb(234, 234, 229);
+        background-color: #1d1824;
         width: 50%;
         margin-top: 5rem;
         height: 60vh;
@@ -182,7 +182,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 1rem;
-        font-family: 'Raleway', sans-serif;
+        font-family: "Poppins", sans-serif;
     }
     .aboutContainer img {
         margin-left: 5rem;
@@ -200,11 +200,14 @@
     
     .aboutContainer h2 {
        
-        margin-left: 18rem;
-        font-size: 23px;
-        color: #353535;
+        margin-left: 15rem;
+        font-size: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: #363947;
         position: absolute;
         margin-top: -13rem;
+        text-align: justify;
     }
     
     .contactContainer {

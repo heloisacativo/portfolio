@@ -2,35 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./MediaQueries.css";
 
 const Header = () => {
     const [selectedOption, setSelectedOption] = useState(null);
+    const currentLocation = useLocation();
 
     useEffect(() => {
-        const currentPath = window.location.pathname;
+        const currentPath = currentLocation.pathname;
         if (currentPath === "/") {
             setSelectedOption(1);
         } else if (currentPath === "/aboutme") {
             setSelectedOption(2);
         }
-    }, []);
+    }, [currentLocation.pathname]);
 
-    const handleOptionClick = (option) => {
-        setSelectedOption(option === selectedOption ? null : option);
-
-    };
     return (
         <div className="header">
             <nav className="headerNavigation">   
             <ul>
                  <li>
-                    <Link to="/" className={`no-underline ${selectedOption === 1 ? 'selected' : ''}`} onClick={() => handleOptionClick('Portfólio')}>
+                    <Link to="/" className={`noUnderline ${selectedOption === 1 ? 'selected' : ''}`}>
                         <span>Portfólio</span>
                     </Link>
                 </li> 
                 <li>
-                    <Link to="/aboutme" className={`no-underline ${selectedOption === 2 ? 'selected' : ''}`} onClick={() => handleOptionClick('Sobre mim') }>
+                    <Link to="/aboutme" className={`noUnderline ${selectedOption === 2 ? 'selected' : ''}`}>
                         <span>Sobre mim</span>
                     </Link>
                 </li>                

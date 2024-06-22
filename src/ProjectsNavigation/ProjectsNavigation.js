@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import "../ProjectsNavigation/MediaQueries.css";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 
 const ProjectsNavigation = () => {
     const [selectedOption, setSelectedOption] = useState(null);
+    const currentLocation = useLocation();
 
     useEffect(() => {
-        const currentPath = window.location.pathname;
+        const currentPath = currentLocation.pathname;
         if (currentPath === "/") {
             setSelectedOption(1);
         } else if (currentPath === "/uxProjects") {
@@ -17,28 +19,26 @@ const ProjectsNavigation = () => {
         } else if (currentPath === "/frontendProjects") {
             setSelectedOption(3);
         }
-    }, []);
+    }, [currentLocation.pathname]);
 
-    const handleOptionClick = (option) => {
-        setSelectedOption(option === selectedOption ? null : option);
-    };
+    
 
     return (
         
         <div className="navigationContainer">
         <ul>
                  <li>
-                    <Link to="/" className={`no-underline ${selectedOption === 1 ? 'selected' : ''}`} onClick={() => handleOptionClick('Todos')}>
+                    <Link to="/" className={`noUnderline ${selectedOption === 1 ? 'selected' : ''}`}>
                         <span >Todos</span>
                     </Link>
                 </li> 
                 <li>
-                    <Link to="/uxProjects" className={`no-underline ${selectedOption === 2 ? 'selected' : ''}`} onClick={() => handleOptionClick('User Experience')}>
-                        <span>User Experience</span>
+                    <Link to="/uxProjects" className={`noUnderline ${selectedOption === 2 ? 'selected' : ''}`}>
+                    <span >User Experience</span>
                     </Link>
                 </li>   
                 <li >
-                    <Link to="/frontendProjects" className={`no-underline ${selectedOption === 3 ? 'selected' : ''}`} onClick={() => handleOptionClick('Front-End')}>
+                    <Link to="/frontendProjects" className={`noUnderline ${selectedOption === 3 ? 'selected' : ''}`}>
                         <span>Front-End</span>
                     </Link>
                 

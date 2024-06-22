@@ -1,11 +1,11 @@
 @media screen and (max-width: 767px){
     .menuSidebarContainer img {
-        width: 5%;
+        width: 13%;
         right: 0;
     }
  
     .menuSidebarContainer .sidebarMenu {
-     background-color:   rgb(234, 234, 229);
+     background-color:   #1d1f2a;
      top: 0rem;
      width: 40%;
      height: 100vh;
@@ -23,24 +23,18 @@
     
     .menuSidebarContainer a{
      text-decoration: none;
-     margin-left: 1.5rem;
-     font-family: 'Helvetica Neue', sans-serif;
-     font-size: 1.3rem;
+     margin-left: 1rem;
+     font-family: "Poppins", sans-serif;
+     font-size: 15px;
      color: #F2808A;
     
      
      
     }
  
-    .menuSidebarContainer ul li{
-     margin-top: -1rem;
-     font-size: 2.5rem;
-     font-family: "Nanum Gothic", sans-serif;
-     
-    }
  
     .sidebarMenu img {
-     width: 20%;
+     width: 35%;
      padding: 0;
      top: 0;
      right: 0;
@@ -55,7 +49,7 @@
     }
  
     .menuSidebarContainer .sidebarMenu {
-     background-color:   rgb(234, 234, 229);
+     background-color: #1d1f2a;
      top: 0rem;
      width: 40%;
      height: 100vh;
@@ -73,24 +67,19 @@
     
     .menuSidebarContainer a{
      text-decoration: none;
-     margin-left: 1.5rem;
-     font-family: 'Helvetica Neue', sans-serif;
-     font-size: 1.3rem;
+     margin-left: 2rem;
+     font-family: "Poppins", sans-serif;
+     font-size: 25px;
      color: #F2808A;
+    
     
      
      
     }
  
-    .menuSidebarContainer ul li{
-     margin-top: -1rem;
-     font-size: 2.5rem;
-     font-family: "Nanum Gothic", sans-serif;
-     
-    }
- 
+   
     .sidebarMenu img {
-     width: 20%;
+     width: 15%;
      padding: 0;
      top: 0;
      right: 0;
@@ -106,7 +95,7 @@
     }
  
     .menuSidebarContainer .sidebarMenu {
-        display: none;
+     display: none;
      background-color: #353535;
      top: 0rem;
      width: 40%;
@@ -134,8 +123,7 @@
     .menuSidebarContainer ul li{
         display: none;
      padding-bottom: 1rem;
-     font-size: 1.5rem;
-     font-family: "Nanum Gothic", sans-serif;
+     
     }
  
     .sidebarMenu img {
@@ -198,4 +186,55 @@
  
 }
 
+}
+
+@media screen and (min-width: 1919px) and (max-width: 3840px){
+
+.menuSidebarContainer {
+    display: none;
+    width: 10%;
+    right: 0;
+}
+
+.menuSidebarContainer .sidebarMenu {
+    display: none;
+ background-color: #353535;
+ top: 0rem;
+ width: 40%;
+ height: 100vh;
+ position: absolute;
+}
+
+.menuSidebarContainer ul{
+    display: none;
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+
+  
+}
+
+.menuSidebarContainer a{
+    display: none;
+ text-decoration: none;
+ margin-left: 0.5rem;
+ 
+ 
+}
+
+.menuSidebarContainer ul li{
+    display: none;
+ padding-bottom: 1rem;
+ font-size: 1.5rem;
+ font-family: "Nanum Gothic", sans-serif;
+}
+
+.sidebarMenu img {
+    display: none;
+ width: 30%;
+ padding: 0;
+ top: 0;
+ right: 0;
+ 
+}
 }

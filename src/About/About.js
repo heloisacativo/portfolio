@@ -28,7 +28,7 @@ const AboutMe = () => {
         
         <div className="aboutContainer">
         <img src={IMGmyphoto} alt="Minha foto"/>  
-        <h2>Sou Heloisa, estudante de Engenharia de Software, gosto de Design UX e Programação Front-End.</h2>      
+        <h2>Sou Heloisa, estudante de Engenharia de Software, me interesso por Design UX e Programação Front-End.</h2>      
         
         <div className="contactContainer">
         <img src={MailIcon} alt="Email Icon" onClick={redirectToEmail}/>

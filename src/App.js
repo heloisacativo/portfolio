@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import UxProjects from './UxProjects/UxProjects';
@@ -23,10 +23,10 @@ function App() {
           <Route path='/uxProjects' element={<UxProjects/>}/>
           <Route path='/frontendProjects' element={<FrontEnd/>}/>
           <Route path='/aboutMe' element={<AboutMe/>}/>
-          <Route path='/projects/project-1' element={<P1/>}/>
-          <Route path='/projects/project-2' element={<P2/>}/>
-          <Route path='/projects/project-3' element={<P3/>}/>
-          <Route path='/projects/project-4' element={<P4/>}/>
+          <Route path='/projects/vetWise' element={<P1/>}/>
+          <Route path='/projects/lineNy' element={<P2/>}/>
+          <Route path='/projects/kiddo' element={<P3/>}/>
+          <Route path='/projects/forksTravel' element={<P4/>}/>
         </Routes>
       </div>
     </Router>
